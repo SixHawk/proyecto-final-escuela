@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+} 
+body {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background: #D5C28D;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+
+}
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+.navbar a:hover {
+    background: #F5E3AF;
+}
+.logo {
+    margin-left: 30px;
+}
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.header {
+    height: 70vh !important;
+    background: url(foto1.jpg) no-repeat center;
+    background-size: cover;
+}
+.tittle {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+.subtittle {
+    align-items: left;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+p {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    text-align: justify;
+}
+.content {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sau {
+    padding: 15vh;
+    background: #D8D2C3;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-container .box {
+    height: 12rem;
+    width: 22rem;
+    background: #7E7358;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3 5rem rgba(0, 0, 0, .3);
+    margin: 2rem;
+    color: #fff;
+
+}
+.box-container .box h3{
+    font-size: 25px;
+    color: #4C3A0E;
+}
+.about  {
+    height: 60vh !important;
+    background: url(foto2.jpg) no-repeat center;
+    background-size: cover;
+}
+.price {
+    background: #BAB4A5;
+    height: 60vh !important;
+}
+#final {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background: #D5C28D;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+
+}
+#final a:hover {
+    background: #D8D2C3;
+    padding: 25px 18px;
+
+}
+
+@media (max-width: 768px) {
+
+    .tittle{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+}
